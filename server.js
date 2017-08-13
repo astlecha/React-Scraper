@@ -30,3 +30,9 @@ db.on("error", function(err) {
 db.once("open", function() {
   console.log("Mongoose connection successful.");
 });
+
+//========================================================================
+// Routes
+app.get("/", function(req, res) {
+  res.sendFile(__dirname + "/public/index.html");
+});
