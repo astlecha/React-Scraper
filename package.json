@@ -1,0 +1,27 @@
+{
+  "name": "React-Scraper",
+  "version": "1.0.0",
+  "description": "Utilizes the React mounting lifecycle to query and display articles based on user searches. Uses Node, Express and MongoDB so that users can save articles to read later.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astlecha/React-Scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astlecha/React-Scraper/issues"
+  },
+  "homepage": "https://github.com/astlecha/React-Scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.6",
+    "morgan": "^1.8.2"
+  }
+}
