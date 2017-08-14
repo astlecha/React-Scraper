@@ -9,9 +9,34 @@
 </head>
 
 <body>
-	
+
+	<div class="container">
+	<div class="jumbotron">
+		<h1>React Scraper</h1>
+		<h2>Scrape Recent Article Headlines!</h2>
+	</div>
+	<div class="row">
+	 <div class="col-lg-12">
+		<form>
+		 <div class="form-group">
+		   <label for="search-topic">Topic</label>
+		   <input type="password" class="form-control" id="search-topic" placeholder="e.g. Environmental Disaster">
+		 </div>
+		 <div class="form-group">
+		   <label for="start-year">Start Year</label>
+		   <input type="password" class="form-control" id="start-year" placeholder="e.g. 2012">
+		 </div>
+		 <div class="form-group">
+		   <label for="end-year">End Year</label>
+		   <input type="password" class="form-control" id="end-year" placeholder="e.g. 2015">
+		 </div>
+		 <a class="btn btn-danger" href="/scrape" id="scrape-button">Scrape New Articles!</a>
+		</form>
+	 </div>
 	<!-- This is where React will deploy the contents it generates -->
 	<div id="app"></div>
+
+	</div>
 
 	<!-- All of our JS code will be transpiled into this bundle.js file -->
 	<script src="bundle.js"></script>
