@@ -20,7 +20,7 @@ app.use(express.static("public"));
 
 //=========================================================================
 // MongoDB configuration
-mongoose.connect("mongodb://localhost/addmern");
+mongoose.connect("mongodb://localhost/nytreact");
 var db = mongoose.connection;
 
 db.on("error", function(err) {
