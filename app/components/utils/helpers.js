@@ -1,16 +1,16 @@
 // Require axois for making Http requests
-var axios = require("axios");
+var axios = require('axios');
 
-var Article = require("../models/Article");
+var Article = require('../models/Article');
 
 // NYT API
-var nytAPI = "";
+var nytAPI = '';
 
 // Helper function makes API calls
 var helper = {
 	runQuery: function(search) {
 
-		var queryURL = "" + nytAPI
+		var queryURL = '' + nytAPI
 
 		Article.link = queryURL;
 
